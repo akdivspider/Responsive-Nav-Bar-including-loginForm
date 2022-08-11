@@ -1,0 +1,46 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .content {
+    border-top: 10px;
+    padding: 40px;
+    text-align:center;
+    background-color: #04AA6D;
+    font-size: 150%;
+    color: aliceblue;
+    text-decoration: solid;
+    
+    font:  sans-serif;
+
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
